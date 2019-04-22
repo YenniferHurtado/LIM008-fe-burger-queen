@@ -1,0 +1,106 @@
+[ 
+    { 
+         "id": "1",
+         "item": "Café americano",
+         "precio": 5,
+        "categoria": "desayuno"
+    }, 
+   {
+        "id": "2",
+        "item": "Café con leche",
+        "precio": 7,
+        "categoria": "desayuno"
+   },
+   {
+        "id": "3",
+        "item": "Sandwich de jamón y queso",
+        "precio": 10,
+        "categoria": "desayuno"
+   },
+   {
+        "id": "4",
+        "item": "Jugo de frutas natural",
+        "precio": 7,
+        "categoria": "desayuno"
+   },
+   {
+        "id": "5",
+        "item": "Hamburguesa simple",
+        "precio": 10,
+        "categoria": "resto del día",
+        "tipo": [
+            "res",
+            "pollo",
+            "vegetariana"
+       ],
+       "familia":"Hamburguesas"
+   }, 
+   {
+        "id": "6",
+        "item": "Hamburguesa doble",
+        "precio": 15,
+        "categoria": "resto del día",
+        "tipo": [
+            "res",
+            "pollo",
+            "vegetariana"
+    ],
+        "familia":"Hamburguesas"
+   },
+   {
+        "id": "7",
+        "item": "Papas fritas",
+        "precio": 5,
+        "categoria": "resto del día",
+        "familia":"Acompañamientos"
+   },
+   {
+        "id": "8",
+        "item": "Aros de cebolla",
+        "precio": 5,
+        "categoria": "resto del día",
+        "familia":"Acompañamientos"
+   },
+   {
+        "id": "9",
+        "item": "Agua 500ml",
+        "precio": 5,
+        "categoria": "resto del día",
+        "familia":"Bebida"
+   },
+   {
+        "id": "10",
+        "item": "Agua 750ml",
+        "precio": 7,
+        "categoria": "resto del día",
+        "familia":"Bebida"
+   },
+   {
+        "id": "11",
+        "item": "Bebida/gaseosa 500ml",
+        "precio": 7,
+        "categoria": "resto del día",
+        "familia":"Bebida"
+   },
+   {
+        "id": "12",
+        "item": "Bebida/gaseosa 750ml",
+        "precio": 10,
+        "categoria": "resto del día",
+        "familia":"Bebida"
+   },
+   {
+        "id": "13",
+        "item": "huevo",
+        "precio": 1,
+        "categoria": "resto del día",
+        "familia":"adicional"
+    },
+    {
+        "id": "14",
+        "item": "queso",
+        "precio": 1,
+        "categoria": "resto del día",
+        "familia":"adicional"
+   } 
+]

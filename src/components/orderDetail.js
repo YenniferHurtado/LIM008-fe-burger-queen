@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 
 class OrderDetail extends Component {
-    // METODO Q SE EJECUTA A PENAS EL componente es ejecutado y almacene los datos
-    constructor() {
-      super();
-      this.state = {
-      };
-    }
+
     render() {
       return (
         <div className="card ml-4 mr-4">

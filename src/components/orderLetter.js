@@ -1,39 +1,60 @@
  
  import React, { Component } from 'react';
- import { menuOption } from '../menu.json';
 
 class Breakfast extends Component {
-  constructor() {
-    super();
-    this.state = {
-      menuOption
-    };
-  }
 
   render() {
-    const buttonBreakfast = this.state.menuOption.map((carta, i) => {
+    const buttonBreakfast = this.props.data.map((carta, i) => {
+      if(carta.categoria === 'desayuno'){
     return (
-        <div className="col-md-4 ml-2 mb-4">
-          <div className="card">
-            <button>
-              <h5>
-                { carta.ProductoDesayuno }
-              </h5>
-            </button>
-            
+        <div className="container">
+          <div className="row">
+            <div>
+                <button>{ carta.item }
+                </button>
+           </div>
           </div>
         </div>
         )
-      });
+      }});
       return (
-      <div>
-        <div className="container row mt-2"> 
-          { buttonBreakfast } 
+      <div className="ml-2 mt-5 mb-4">
+        <div> 
+          <div>
+          { buttonBreakfast }
+          </div>
         </div>
       </div>
     );
   }
 }
 
+export class Lunch extends Component {
+
+  render() {
+    const buttonLunch = this.props.data.map((carta, i) => {
+      if(carta.categoria === 'resto del día'){
+    return (
+        <div className="container">
+          <div className="row">
+            <div>
+                <button>{ carta.item }
+                </button>
+           </div>
+          </div>
+        </div>
+        )
+      }});
+      return (
+      <div className="ml-2 mt-5 mb-4">
+        <div> 
+          <div>
+          { buttonLunch }
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default Breakfast;

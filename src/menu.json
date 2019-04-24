@@ -27,7 +27,7 @@
         "id": "5",
         "item": "Hamburguesa simple",
         "precio": 10,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "tipo": [
             "res",
             "pollo",
@@ -39,7 +39,7 @@
         "id": "6",
         "item": "Hamburguesa doble",
         "precio": 15,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "tipo": [
             "res",
             "pollo",
@@ -51,14 +51,14 @@
         "id": "7",
         "item": "Papas fritas",
         "precio": 5,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Acompañamientos"
    },
    {
         "id": "8",
         "item": "Aros de cebolla",
         "precio": 5,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Acompañamientos"
    },
    {
@@ -72,21 +72,21 @@
         "id": "10",
         "item": "Agua 750ml",
         "precio": 7,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Bebida"
    },
    {
         "id": "11",
         "item": "Bebida/gaseosa 500ml",
         "precio": 7,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Bebida"
    },
    {
         "id": "12",
         "item": "Bebida/gaseosa 750ml",
         "precio": 10,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Bebida"
    },
    {
@@ -100,7 +100,7 @@
         "id": "14",
         "item": "queso",
         "precio": 1,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"adicional"
    } 
 ]

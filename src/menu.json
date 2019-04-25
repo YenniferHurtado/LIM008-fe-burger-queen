@@ -65,7 +65,7 @@
         "id": "9",
         "item": "Agua 500ml",
         "precio": 5,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"Bebida"
    },
    {
@@ -93,7 +93,7 @@
         "id": "13",
         "item": "huevo",
         "precio": 1,
-        "categoria": "resto del día",
+        "categoria": "almuerzo",
         "familia":"adicional"
     },
     {

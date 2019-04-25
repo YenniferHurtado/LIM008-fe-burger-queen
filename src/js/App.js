@@ -1,21 +1,18 @@
-
 import React, { Component } from 'react';
 import axios from 'axios';
-import DataClient from '../components/dataClient'
-import Breakfast from '../components/orderLetter';
-import Lunch from '../components/orderLetter';
-import OrderDetail from '../components/orderDetail';
+import { DataClient } from '../components/dataClient'
+import { Breakfast, Lunch, OptionFood } from '../components/chooseFood'
+//import OrderDetail from '../components/orderDetail';
 
 class App extends Component {
 
   componentDidMount() {
-    axios.get('https://raw.githubusercontent.com/YenniferHurtado/LIM008-fe-burger-queen/orderData/src/menu.json')
-    .then(res => {
-      this.setState({ data: res.data})
-      console.log(res.data)
-    }).catch(err => {
-      console.log(err);
-    })
+    axios.get('https://raw.githubusercontent.com/YenniferHurtado/LIM008-fe-burger-queen/develop/src/menu.json')
+      .then(res => {
+        this.setState({ data: res.data })
+      }).catch(err => {
+        console.log(err);
+      })
   }
 
   constructor() {
@@ -25,13 +22,18 @@ class App extends Component {
     };
   }
 
+  changeFood(e) {
+
+  }
+
   render() {
     return (
       <div>
+        <div>
           <DataClient />
-          <Breakfast data={ this.state.data }/>
-          <Lunch data={ this.state.data } />
-          <OrderDetail />
+          <OptionFood data={this.state.data}/>
+          {/* <Breakfast data={this.state.data} /> */}
+        </div>
       </div>
     );
   }

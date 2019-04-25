@@ -18,6 +18,13 @@ class OrderDetail extends Component {
               </thead>
             </table>
           </div>
+          <input
+                  type="textarea"
+                  className="mr-2"
+                  name="observaciones"
+                  placeholder="Observaciones"
+                  onChange = { this.saveDataClient }
+                  />
           <button type="submit" className="btn btn-primary">
             Enviar
           </button>

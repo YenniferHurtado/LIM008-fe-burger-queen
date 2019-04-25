@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class DataClient extends Component {
+export class DataClient extends Component {
 
     constructor() {
         super(); 
@@ -11,6 +11,7 @@ class DataClient extends Component {
         };
         this.saveDataClient = this.saveDataClient.bind(this);
       }
+      
       saveDataClient(e) {
         const {name, value} = e.target;
         this.setState({
@@ -21,8 +22,14 @@ class DataClient extends Component {
 
       render() {
           return (
+            <div>
+            <div className="logo">
+            <nav>
+              <h4>BURGUER QUEEN</h4>
+            </nav>
+            </div>
             <div className="App">
-              <nav className="navbar navbar-black bg-dark">
+              <nav className="navbar">
                 <form className="text-white">
                   <input
                   type="text"
@@ -51,10 +58,11 @@ class DataClient extends Component {
                 </form>
               </nav>
             </div>
-            
+            </div>
+
         );
     }
 
 }
 
-export default DataClient;
+

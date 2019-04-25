@@ -1,0 +1,38 @@
+button {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(48, 109, 128);
+    border-radius: 30px;
+}
+
+h4 {
+    margin-left: 25px;
+    color: #ffffff;
+}
+
+.logo {
+    background: #2ea56e;
+    padding: 8px;
+}
+
+.navbar {
+    background: #d2e299;
+    padding: 15px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px; border: 6px;
+}
+
+.opt-break, .opt-lunch {
+    background: #5a70e7;
+}
+
+

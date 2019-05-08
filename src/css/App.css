@@ -1,3 +1,44 @@
+ /*------------------ Imports ------------------- */
+
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+
+ /*------------------Estilos de entrada------------------- */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/images/fondo-mesero.jpg) no-repeat center center fixed;
+    background-color: #fcd25580;
+    font-family: 'Bree Serif', serif;
+}
+
+.logo {
+    padding: 25px;
+    color: rgb(218, 30, 30);
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nombre-mesero {
+    margin-top: 400px;
+    margin-left: 85px;
+    padding: 45px;
+    border-radius: 10px; border: 6px;
+}
+
+::placeholder {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+
 button {
     margin-left: 30px;
     margin-top: 20px;
@@ -11,28 +52,10 @@ button {
     border-radius: 30px;
 }
 
-h4 {
-    margin-left: 25px;
-    color: #ffffff;
-}
 
-.logo {
-    background: #2ea56e;
-    padding: 8px;
-}
 
-.navbar {
-    background: #d2e299;
-    padding: 15px;
-}
-
-input {
-    padding: 15px;
-    border-radius: 10px; border: 6px;
-}
-
-.opt-break, .opt-lunch {
-    background: #5a70e7;
+.card {
+    color: black;
 }
 
 
